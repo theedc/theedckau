@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.kaugirls.dalal.theedc.call">
+
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/font_theEDC"
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="203dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/textView4"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColorLink="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419" />
+
+
+    <ImageView
+        android:id="@+id/edclogo"
+        android:layout_width="213dp"
+        android:layout_height="196dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="75dp"
+        android:layout_marginTop="31dp"
+        android:contentDescription="@string/textView4"
+        app:srcCompat="@drawable/edclogo" />
+
+    <ImageButton
+        android:id="@+id/emailbutt"
+        android:layout_width="88dp"
+        android:layout_height="83dp"
+        android:layout_alignBottom="@+id/callbutt"
+        android:layout_alignStart="@+id/textView"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/emailbutt"
+        app:srcCompat="@drawable/email" />
+
+    <ImageButton
+        android:id="@+id/callbutt"
+        android:layout_width="86dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_below="@+id/textView3"
+        android:autoLink="phone"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/callbutt"
+        app:srcCompat="@drawable/call" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="322dp"
+        android:layout_height="89dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="monospace"
+        android:text="@string/textView3"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

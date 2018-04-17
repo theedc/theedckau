@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مركز الكوراث والطوارئ</string>
+    <string name="button6">تعديل</string>
+    <string name="button7">المشرف</string>
+    <string name="textView">EDC</string>
+    <string name="button5">التنبيهات</string>
+    <string name="textView2">الرئيسية</string>
+    <string name="edit">تعديل مراكز الايواء ونقاط التجمع</string>
+    <string name="butt2">مركز إيواء</string>
+    <string name="butt3">نقطة تجمع</string>
+    <string name="backbutt">الرجوع</string>
+    <string name="smsbutt">SMS</string>
+    <string name="appbutt">من خلال التطبيق</string>
+    <string name="msgtxt">أدخل نص الرسالة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="send">إرسال</string>
+    <string name="upload">تحميل المرفقات</string>
+    <string name="textView3">في حالة طلب المساعدة يرجى الاتصال مباشرة من الأيقونة التالية أو إرسال بريد إلكتروني</string>
+    <string name="callbutt">اتصال</string>
+    <string name="emailbutt"> ارسال ايميل </string>
+    <string name="login">الدخول</string>
+    <string name="textView4">THE EDC</string>
+    <string name="textView5">مركز الطورائ والكوراث</string>
+    <string name="recovery">إستعادة كلمة المرور ؟</string>
+    <string name="cancel_but">إلغاء</string>
+    <string name="logbutt">تسجيل الدخول</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="passwordtext">كلمة المرور</string>
+    <string name="member_but">منسوبي الجامعة</string>
+    <string name="mapimg">KAU map</string>
+    <string name="title_activity_login">تسجيل الدخول</string>
+    <string name="home_page">الصفحة الرئيسية</string>
+    <string name="what_to_do">المواد التوعوية</string>
+    <string name="who">من نحن</string>
+    <string name="call_us">اتصل بنا</string>
+    <string name="map">الخريطة</string>
+    <string name="v1">ماذا تفعل في حالة سيول</string>
+    <string name="v2">ماذا تفعل في حالة الزلازل</string>
+    <string name="about_us">من نحن </string>
+    <string name="v3">ماذا تفعل في حالة الاخلاء</string>
+
+    <string name="about_us_text">يخدم هذا التطبيق منسوبي جامعة الملك عبد العزيز لمساعدتهم الى ايجاد  مراكز ونقاط التجمع في حالة الكوارث وحالات الطوارئ وتسهيل عملية
+ التواصل مع المركز داخل الجامعة.
+
+</string>
+
+
+    <string name="about_edc">حول المركز</string>
+    <string name="vision">الرؤرية</string>
+    <string name="edc_vision">التميز في إدارة الطوارئ والكوارث.</string>
+    <string name="mission">الرسالة</string>
+    <string name="edc_mission">رفع جاهزية الجامعة لتقليل الخسائر الناجمة عن الطوارئ والكوارث التي قد تتعرض لها والتعافي منها، باستخدام التقنيات الحديثة وتكامل الأنشطة وتزويد مجتمع الجامعة بالتعليمات الضرورية.</string>
+    <string name="objectives">الأهداف</string>
+    <string name="edc_objectives1">١-  مركز متكامل داخل الجامعة مجهز بالتقنيات والإمكانيات المناسبة للتعامل مع حالات الطوارئ والكوارث في جميع مراحها (قبل, وأثناء, وبعد).
+    </string>
+    <string name="edc_objectives2">٢-  التقليل من الخسائر البشرية والمادية الناتجة عن الطوارئ والكوارث.
+    </string>
+    <string name="edc_objectives3">٣-  رفع جاهزية الجامعة للحد من المخاطر التي تتعرض لها والتعافي من آثارها.
+    </string>
+    <string name="edc_objectives4">٤ -  توحيد الجهود في الجامعة وفق منظومة متناغمة متكاملة مبنية على أسس علمية تقود العملية الميدانية بكل يسر وانسيابية  </string>
+    <string name="copy">جميع الحقوق محقوظة@ 2018</string>
+    <string name="verion">النسخة : 1</string>
+    <!-- relered to assemply pages-->
+    <string name="AssemblyPoint">نقطة التجمع</string>
+    <string name="AssemblyName">اسم نقطة التجمع</string>
+    <string name="Save">حفظ</string>
+    <string name="ShelterSite">مركز الايواء</string>
+    <string name="ShelterName">اسم مركز الايواء</string>
+    <string name="Type">النوع</string>
+    <string name="Status">الحالة</string>
+    <string name="Capacity">السعة</string>
+    <string name="Description">وصف عن المركز</string>
+    <string name="AssemblyPoints">نقاط التجمع</string>
+    <string name="Assemblypoint">نقطة التجمع</string>
+    <string name="Update">تحديث</string>
+    <string name="Delete">حذف</string>
+    <string name="Sheltersite">مركز الايواء</string>
+
+
+</resources>

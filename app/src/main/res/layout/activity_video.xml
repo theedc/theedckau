@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kaugirls.dalal.theedc.video">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="363dp"
+        android:layout_height="230dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="13dp" />
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="-43dp"
+        android:background="@color/yellow"></LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="235dp"
+        android:background="@drawable/shape"
+        android:onClick="videoplay"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/v1"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="15dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:background="@color/yellow"></LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="143dp"
+        android:background="@drawable/shape"
+        android:onClick="videoplay1"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/v2"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="15dp"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentStart="true"
+        android:background="@color/yellow"></LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/shape"
+        android:onClick="videoplay2"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/v3"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="15dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:background="@color/yellow"></LinearLayout>
+
+
+</RelativeLayout>

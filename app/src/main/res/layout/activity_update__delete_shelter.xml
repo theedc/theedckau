@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    tools:context="com.kaugirls.dalal.theedc.Update_Delete_ShelterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/font_theEDC"
+            android:layout_width="207dp"
+            android:layout_height="54dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/Sheltersite"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColorLink="@color/red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.404" />
+
+        <EditText
+            android:id="@+id/shelter_Name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:ems="10"
+            android:hint="@string/ShelterName"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/Delete"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/map"
+            android:layout_alignStart="@+id/map"
+            android:layout_alignTop="@+id/isEnable"
+            android:layout_below="@+id/Update"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/shape2"
+            android:text="@string/Delete" />
+
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/map"
+            android:layout_alignStart="@+id/map"
+            android:layout_alignTop="@+id/isEnable"
+            android:layout_below="@+id/isEnable"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape3"
+            android:text="@string/Update" />
+
+        <Switch
+            android:id="@+id/isEnable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/map"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="isEnable" />
+
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_below="@+id/description"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/type"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shelter_Name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/Type"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/status"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/type"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/Status"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/capacity"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/status"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/Capacity"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/capacity"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:gravity="top|left"
+            android:hint="@string/Description"
+            android:inputType="textMultiLine" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

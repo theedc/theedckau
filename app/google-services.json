@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "943069377736",
+    "firebase_url": "https://theedc-c6e42.firebaseio.com",
+    "project_id": "theedc-c6e42",
+    "storage_bucket": "theedc-c6e42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943069377736:android:168520adbc51f622",
+        "android_client_info": {
+          "package_name": "com.kaugirls.dalal.theedc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943069377736-3bc3moj3hkgqrs1eptpom1j8en34psvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaugirls.dalal.theedc",
+            "certificate_hash": "080ebd33c8a43de9760478ceb81d492ed7d38ec3"
+          }
+        },
+        {
+          "client_id": "943069377736-sqs0sqrv946ksb7iqjs6ih0929luqg8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzqSNzWP489deHBkPCgLVrsTomKvaObgc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943069377736-sqs0sqrv946ksb7iqjs6ih0929luqg8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+package com.kaugirls.dalal.theedc;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+
+public class notif extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_notif);
+
+        Button notifApp = findViewById(R.id.appbutt);
+        notifApp.bringToFront();
+        notifApp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(notif.this, sendApp.class);
+                startActivity(myIntent);
+            }
+        });
+
+
+        Button notifSMS = findViewById(R.id.smsbutt);
+        notifSMS.bringToFront();
+        notifSMS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(notif.this, sendSMS.class);
+                startActivity(myIntent);
+            }
+        });
+
+    }
+
+
+}
